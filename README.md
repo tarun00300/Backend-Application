@@ -1,20 +1,21 @@
 # Backend-Application
+## Instructions
+Please stick to the following instructions on how to submit your application:
+1. Read the whole README
+2. Fork our repository
+3. Add your solution to your repository
+4. Create a pull request to our repository
+
+Also note down in the end how many hours it took to complete (roughly). **Please do not spend more than 6 hours for the whole task.**
+
+Thank you very much!
+
 ## Main Task
 Develop a first version of the products module. Should be possible to fetch all the products, add a new one, delete it and edit existing ones. All the requirements are described in the mockup images and should be derived from it.
 ### Database View
 ![Database View](images/database_view.jpg)
 ### Create/Edit View
 ![Edit View](images/edit_view.jpg)
-
-## Submitting
-Please stick to the following instructions on how to submit your application:
-1. Fork our repository
-2. Add your solution to your repository
-3. Create a pull request to our repository 
-
-Also note down in the end how many hours it took to complete (roughly). **Please do not spend more than 6 hours for the whole task.**
-
-Thank you very much!
 
 ## Technical Requirements
 * Database Design
