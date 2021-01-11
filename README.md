@@ -24,8 +24,10 @@ Thank you very much!
 * Use EF Core ORM
 * Mapping (automapper)
 * One unit test
-* GET :id should include the user object
-    * make an api request to user api (https://jsonplaceholder.typicode.com/users/1)
+* Connect user object
+    * GET :id should include the user object
+      * make an api request to user api (https://jsonplaceholder.typicode.com/users/1)
+    * the POST/PUT request will include a `userId`
 
 ## Bonus
 The following points are optional but give additional credit:
