@@ -32,7 +32,7 @@ Develop a first version of the products module. Should be possible to fetch all 
 * Connect user object
     * GET :id should include the user object
       * make an api request to user api (https://jsonplaceholder.typicode.com/users/1)
-    * the POST/PUT request will include a `userId`
+    * the POST/PUT request will include a `userId` which is the owner of the product
 
 ## Bonus
 The following points are optional but give additional credit:
@@ -41,5 +41,5 @@ The following points are optional but give additional credit:
 * Test Coverage
 * Get all should include the user object
 * basic JWT Authentication
-    * so only the owner of the object is allowed to edit / delete the product
+    * so only the owner of the product is allowed to edit / delete the product
 * CORS functionality
