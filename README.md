@@ -18,6 +18,7 @@ Develop the first version of the products module. It should be possible to fetch
 ### Create/Edit View
 ![Edit View](images/edit_view.jpg)
 ### Clarification
+* Top navigation, menu on the left, etc. are not part of this task. This is only about the product module.
 * Filtering by product types should be possible to perform with multiple types selected.
 * Pagination should be added in GET all request to enable loading more products on scroll.
 
