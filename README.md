@@ -11,7 +11,7 @@ Also note down in the end how many hours it took to complete (roughly). **Please
 Thank you very much!
 
 ## Main Task
-Develop a first version of the products module. Should be possible to fetch all the products, add a new one, delete it and edit existing ones. All the requirements are described in the mockup images and should be derived from it.
+Develop a first version of the products module. Should be possible to fetch all the products, fetch a single product, add a new one, delete it and edit existing ones. All the requirements are described in the mockup images and should be derived from it.
 ### Database View
 ![Database View](images/database_view.jpg)
 ### Create/Edit View
