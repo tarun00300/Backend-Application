@@ -11,31 +11,36 @@ Also note down in the end how many hours it took to complete (roughly). **Please
 Thank you very much!
 
 ## Main Task
-Develop a first version of the products module. Should be possible to fetch all the products, add a new one, delete it and edit existing ones. All the requirements are described in the mockup images and should be derived from it.
+Develop the first version of the products module. It should be possible to fetch all the products, a single one, add a new product, edit and delete it. Requirements are described via the mockups images below and should be derived from them.
 ### Database View
 ![Database View](images/database_view.jpg)
 ### Create/Edit View
 ![Edit View](images/edit_view.jpg)
+### Clarification
+* Filtering by product types should be possible to perform with multiple types selected.
+* Pagination should be added in GET all request to enable loading more products on scroll.
 
 ## Technical Requirements
-* Database Design
-    * Using SQLite or MySQL
-        - When using MySQL, please add instructions
-* Whole controller setup: POST/DELETE/UPDATE/GET
-* Docker setup
-* Query params
-    * Filtering f.e. product types
-    * Pagination in GET all
-* Use EF Core ORM
-* Mapping (automapper)
-* One unit test
-* Connect user object
-    * GET :id should include the user object
+* Project
+    * [ASP.NET Core web API application](https://docs.microsoft.com/en-us/aspnet/core/tutorials/first-web-api?view=aspnetcore-3.1&tabs=visual-studio). Prefer version 3.1.
+* Database
+    * Use SQLite or MySQL
+        - When using MySQL, please add setup instructions
+    * Use EF Core ORM framework to work with database
+* Tests project
+    * At least one unit test should be written (even the simplest one).
+    * Prefer [xUnit](https://xunit.net/)
+* Controller should contain POST,DELETE,UPDATE and two GET methods
+* Project should be setup to run as a docker container - `.Dockerfile` is required
+* Use [Automapper library](https://automapper.org/) to map models to view models
+* Attach user object
+    * GET by id request: product should include the user object
       * make an api request to user api (https://jsonplaceholder.typicode.com/users/1)
     * the POST/PUT request will include a `userId`
 
 ## Bonus
 The following points are optional but give additional credit:
+* Avoid [anemic domain model](https://www.martinfowler.com/bliki/AnemicDomainModel.html)
 * Caching
     * redis (or memcached)
 * Test Coverage
