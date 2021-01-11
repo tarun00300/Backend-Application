@@ -1,6 +1,10 @@
 # Backend-Application
 ## Main Task
 Develop a first version of the products module. Should be possible to fetch all the products, add a new one, delete it and edit existing ones. All the requirements are described in the mockup images and should be derived from it.
+### Database View
+![Database View](images/database_view.jpg)
+### Create/Edit View
+![Edit View](images/edit_view.jpg)
 
 ## Submitting
 Please stick to the following instructions on how to submit your application:
