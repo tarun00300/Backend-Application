@@ -11,7 +11,7 @@ Also note down in the end how many hours it took to complete (roughly). **Please
 Thank you very much!
 
 ## Main Task
-Develop the first version of the products module. It should be possible to fetch all the products, a single one, add a new product, edit and delete it. Requirements are described via the mockups images below and should be derived from them.
+Develop a minified version of the products module api. The API should provide endpoints to make it possible to fetch all the products, a single one, add a new product, edit and delete it. Requirements (object structure, etc.) are described via the mockups images below and should be derived from them.
 
 ### Database View
 ![Database View](images/database_view.jpg)
